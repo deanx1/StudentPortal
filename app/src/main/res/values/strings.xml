@@ -8,5 +8,6 @@
     <string name="add_url">Url</string>
     <string name="reminder">Reminder</string>
     <string name="http">http://</string>
+    <string name="btn_portal">portal</string>
     <string name="http_prefill">http://</string>
 </resources>

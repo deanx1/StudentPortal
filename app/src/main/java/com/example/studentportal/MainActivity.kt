@@ -50,7 +50,7 @@ class  MainActivity : AppCompatActivity() {
         // Initialize the recycler view with a Grid layout manager, adapter
         rvPortals.layoutManager = GridLayoutManager(this@MainActivity,2 , RecyclerView.VERTICAL, false)
         rvPortals.adapter = portalAdapter
-        rvPortals.addItemDecoration(DividerItemDecoration(this@MainActivity, DividerItemDecoration.VERTICAL))
+//        rvPortals.addItemDecoration(DividerItemDecoration(this@MainActivity, DividerItemDecoration.VERTICAL))
         createItemTouchHelper().attachToRecyclerView(rvPortals)
 
         fab.setOnClickListener { startAddPortalActivity() }
